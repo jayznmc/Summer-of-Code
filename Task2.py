@@ -20,3 +20,23 @@ def count_valid_records(input):
 text = open('rainfall.txt', 'r', encoding='utf8')
 print(count_valid_records(text))
 
+# Part 2
+# The rainfall records are still in 02-rainfall.txt;
+# what is the average (mean) of the valid rainfall records? Give your answer to the nearest whole number
+
+def mean_temp(input):
+    valueList = []
+    total = 0
+
+    for record in input:
+        value = int(record)
+        if int(record) >= 9999:
+            break
+        else:
+            valueList.append(value)
+            total = total + value
+    return round(total / len(valueList))
+
+text = open('rainfall.txt', 'r', encoding='utf8')
+print(mean_temp(text))
+
