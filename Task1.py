@@ -1,11 +1,10 @@
 # Q1
-#Is an instruction to the robot (which will be executed), followed by a comment.
+#
 #All instructions and comments begin in the first character of a line: there are no
 # whitespace characters before an instruction or comment starts.
 #You can assume that all the lines are either comments or valid instructions: there's no
 #  need to validate the input file. In particular, there are no blank lines in the file.
 
-#In the example above, there are 3 comments and 22 instructions.
 
 #Given the instructions file in 01-mowmaster.txt, how many instructions are there?
 
@@ -24,7 +23,7 @@ print(count_instructions(text))
 
 
 # Part 2
-#Is an instruction to the robot (which will be executed), followed by a comment.
+
 #All instructions and comments begin in the first character of a line: there are no whitespace characters
 #before an instruction or comment starts.
 #You can assume that all the lines are either comments or valid instructions: there's no need to validate the input file.
