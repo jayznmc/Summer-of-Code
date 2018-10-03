@@ -14,6 +14,8 @@
 # (The file contains exactly one friendship per line. On each line, there are two names, separated by spaces. 
 # Names can have non-letters in them, such as "Ella-Louise", but no name contains a space.)
 
+# Code inspired by Wojciech Czubak solution.
+
 groups = {}
 groupID = 0
 
